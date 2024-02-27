@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #ui div img{
+        width: 200px;
+        overflow: hidden;
+        height: 200px;
+
+    }
+    div{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+</style>
+<body>
+    <form id="form">
+        <input type="text" placeholder="titel" id="titel">
+        <input type="url" id="img" placeholder="img">
+        <input type="number" id="price" placeholder="price">
+        <input type="submit">
+    </form>
+    <div id="ui">
+
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
